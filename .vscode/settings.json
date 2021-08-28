@@ -1,0 +1,22 @@
+{
+  "eslint.workingDirectories": ["co-analysis"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }, // Use eslint to format js/ts files
+  // prettier is included by eslint
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "koa-analysis",
+  "version": "1.0.0",
+  "repository": "https://github.com/lxchuan12/koa-analysis.git",
+  "author": "<yimingli.cs@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "co-analysis",
+    "co",
+    "DefinitelyTyped/types/co",
+    "koa"
+  ]
+}

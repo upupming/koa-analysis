@@ -1,6 +1,6 @@
 import co = require('co');
 
-function* gen(num: number, str: string, arr: number[], obj: object, fun: () => void) {
+function* gen(num: number, str: string, arr: number[], obj: object, fun: () => void): Generator<undefined, number, undefined> {
     return num;
 }
 
@@ -28,3 +28,12 @@ co.wrap(gen)();
 
 // $ExpectError
 co.wrap(gen)('forty-two');
+
+// example from co README.md
+function* gen1 (): Generator<Promise<boolean>, boolean, boolean> {
+    const result = yield Promise.resolve(true)
+    return result
+  }
+co.co(gen1)
+    .then((result: boolean) => {}, (err: Error) => {})
+    .catch((err: Error) => {});

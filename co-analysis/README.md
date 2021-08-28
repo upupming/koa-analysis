@@ -14,7 +14,7 @@
 
 ### 相关代码
 
-为了便于源码分析，我把 [`co` 源码](../co)和它的类型定义 [`@types/co`](../DefinitelyTyped/types/co) 都拉取下来了，并且使用 yarn workspace 管理依赖，并且将我的一些测试代码写在了 [test/co.spec.ts](./test/co.spec.ts) 和 [test/co.type.spec.d.ts](test/co.type.spec.d.ts) 中。所有源代码均可在 https://github.com/upupming/koa-analysis/ 获取，原文链接在: https://github.com/upupming/koa-analysis/tree/master/co-analysis/README.md。
+为了便于源码分析，我把 [`co` 源码](../co)和它的类型定义 [`@types/co`](../DefinitelyTyped/types/co) 都拉取下来了，并且使用 yarn workspace 管理依赖，并且将我的一些测试代码写在了 [test/co.spec.ts](./test/co.spec.ts) 和 [test/co.type.spec.d.ts](test/co.type.spec.d.ts) 中。所有源代码均可在 https://github.com/upupming/koa-analysis/ 获取，原文链接在: https://github.com/upupming/koa-analysis/tree/master/co-analysis/README.md 。
 
 ## co 源码分析
 
